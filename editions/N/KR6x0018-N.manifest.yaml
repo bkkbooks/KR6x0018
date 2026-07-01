@@ -1,0 +1,28 @@
+canonical_identifier: bkk:krp/KR6x0018/N/v1
+canonical_location: https://kanripo.org/bkk/KR6x0018/N/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 本生經
+  identifiers:
+    krp: KR6x0018
+    cbeta: N31n0018
+    cbeta_old_id: N31n0018
+    authorityid: CA0008282
+    json_key: N0018
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/N/N31/N31n0018.xml
+    old_id: N31n0018
+  edition:
+    short: 'N'
+assets:
+  parts:
+  - {seq: 1, filename: KR6x0018_001-N.yaml, hash: 'sha256:734cf0917a12714379a89b85752a7c237c26ac2f5f7cd2d5ffecdacc845c05ea'}
+  - {seq: 2, filename: KR6x0018_002-N.yaml, hash: 'sha256:e0b860dc04efd0f3243d7f21ed16f31099ff6b66fe2b1fde722b5f22f6446d59'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6x0018_001-N.markers.yaml, hash: 'sha256:a0930a9c3c4a80aa6a9f3583496bce9ab25afe5c2812950001c1147a0e700d57'}
+  - {seq: 2, role: markers, filename: assets/KR6x0018_002-N.markers.yaml, hash: 'sha256:5f0ca05f0620bc86440741922ba5ab7c49dea18b6ec0b3f58c30a4fec8a82913'}
+table_of_contents: []
+hash: sha256:19d00cd63483cecc0ea250568632f6eff0995372535e86e18ced87117a119354

@@ -1,0 +1,30 @@
+canonical_identifier: bkk:krp/KR6x0018/v1
+canonical_location: https://kanripo.org/bkk/KR6x0018/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 本生經
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/N/N31/N31n0018.xml
+    old_id: N31n0018
+  edition:
+    short: bkk
+editions:
+- short: 南傳
+  label: 南傳
+  source_xml_id: wit.orig
+- short: 'N'
+assets:
+  parts:
+  - {seq: 1, filename: KR6x0018_001.yaml, hash: 'sha256:f242b502fad942a3cb239de310248a225abc7fb68b0576acf1c24cae3a8acb6e'}
+  - {seq: 2, filename: KR6x0018_002.yaml, hash: 'sha256:412c9f040c2b9e2824cd37f8815566833a97c75e4e183548f1e410028850c7a4'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6x0018_001.markers.yaml, hash: 'sha256:8e675f35fb050be2de56c043327e47d9e1cb9131b5d4208c914e8bd0f4f05288'}
+  - {seq: 2, role: markers, filename: assets/KR6x0018_002.markers.yaml, hash: 'sha256:93786a81959329731c0304a650fec5fd9b682ec9693a07bce214e1c489942108'}
+table_of_contents: []
+hash: sha256:f2be689d837ae76253503183bafa8d241d7d88102153748fe387daec769b1fde
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
